@@ -15,10 +15,10 @@ public class AccuracyDoubleFloat {
         return v2;
     }
     public static double calculateAccuracy(double radius){
-        Double r1 = Double.valueOf(radius);
-        float r= r1.floatValue();
+     //   Double r1 = Double.valueOf(radius);
+     //   float r= r1.floatValue();
         double x = volumeBallDouble(radius);
-        Float y1 = Float.valueOf(volumeBallFloat(r));
+        Float y1 = Float.valueOf(volumeBallFloat(Double.valueOf(radius).floatValue()));
         double y = y1.doubleValue();
         return x-y;
     }
