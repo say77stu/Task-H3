@@ -33,7 +33,7 @@ public class ReverseDigits {
         double rad =  1.55f;
         double rad3 = 6371.2;
         float rad4 = 6371.2f;
-        float rad5 = 100.00f;
+        float rad5 = 50.00f;
         System.out.println("Площадь поверхности сферы радиуса R по формуле S = 4πR2 = " + sphereSquare(rad));
         earthSquare();
         System.out.println("Площадь поверхности Земли, считая радиус равным 6 371,2 км равна " + earthSquare() + " кв.км");
